@@ -4,22 +4,54 @@
 
   ===================*/
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
 /*-------------------
-  Siderbar
+       Sidebar
   -------------------*/
-section {
+
+.sidebar {
   background-color: green;
-  height: 600px;
 }
 
-header {
-  text-align: center;
-  top: auto;
+.sidebar header {
+  font-size: 2em;
   margin: 3em auto;
+  position: fixed;
+    top: auto;
 }
+
+.company-title {
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
 
 /*-------------------
-  Main Content
+     Main Content
   -------------------*/
+
+main .posts {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
 /*-----Blog Posts----*/
+
+.blog_post {
+  border: solid 1px gray;
+}
+
+.blog_title {
+  margin-bottom: 0;
+  text-align: center;
+}
