@@ -1,0 +1,25 @@
+/*===================
+
+  Pure CSS Blog Styles
+
+  ===================*/
+
+/*-------------------
+  Siderbar
+  -------------------*/
+section {
+  background-color: green;
+  height: 600px;
+}
+
+header {
+  text-align: center;
+  top: auto;
+  margin: 3em auto;
+}
+
+/*-------------------
+  Main Content
+  -------------------*/
+
+/*-----Blog Posts----*/
